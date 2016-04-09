@@ -6,6 +6,8 @@
 }
 nav {
 	width: 1200px;
+	height: 48px;
+}
 }
 ul li {
 		border: 0px;
@@ -15,5 +17,12 @@ ul li {
 		margin-left: 0px;
 		margin-top: 0px;
 		color: blue;
+		text-align: right;
+		background-color: transparent;
 		
 	}
+#slider{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
