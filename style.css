@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration:none;
+}
+nav {
+	width: 1200px;
+}
+ul li {
+		border: 0px;
+		list-style: none;
+		display: inline;
+		margin-right: 10px;
+		margin-left: 0px;
+		margin-top: 0px;
+		color: blue;
+		
+	}
