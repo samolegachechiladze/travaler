@@ -7,8 +7,10 @@
 nav {
 	width: 1200px;
 	height: 48px;
+	background-color: transparent;
+
 }
-}
+
 ul li {
 		border: 0px;
 		list-style: none;
@@ -16,13 +18,72 @@ ul li {
 		margin-right: 10px;
 		margin-left: 0px;
 		margin-top: 0px;
-		color: blue;
-		text-align: right;
+		color: orange;
 		background-color: transparent;
-		
+		text-align: top right;
+	}
+img{
+	width: 1200px;
+	margin: 0;
+	padding: 0;
+
 	}
 #slider{
 	width: 100%;
 	margin: 0;
 	padding: 0;
 }
+#welcome{
+	width: 1200px;
+	text-align: center;
+	display: inline-block;
+
+}
+.welcome-block{
+	background-color: lightpink;
+	padding: none;
+	margin: 2%;
+	<-- marto welcome-ze ro qones background-color-->
+
+}
+.pharagraph-welcome{
+
+	background-color: lightpink;
+	text-align: center;
+	
+	<!-- centrshi maq gasawevi da rogor gavaketo?-->
+}
+.about-us{
+	background-color: darkorange;
+	margin: 3%;
+	 border: 1px solid black;
+}
+.information{
+	display: inline-block;
+}
+.tour{
+	width: 1200px;
+	font-size: 40px;
+	background-color: lightpink;
+	text-align: center;
+	margin: 5px;
+}
+.calendar{
+
+	width: 268px;
+	height: 576px;
+
+}
+.calendar-picture{
+	background-color: lightblue;
+
+}
+.tour-info{
+	background-color: lightpink;
+	border-left: 1px solid blue;
+}
+.calendar-info{
+	background-color: blue;
+	text-shadow: lightpink;
+}
+
