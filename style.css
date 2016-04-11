@@ -1,29 +1,63 @@
+body{
+	height: 100%;
+	width: 100%;
+}
 * {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	text-decoration:none;
 }
-nav {
-	width: 1200px;
-	height: 48px;
-	background-color: transparent;
+#logo{
+	float: left;
+	padding-top: 20px;
+	padding-left: 50px;
+	margin: 0px;
 
 }
+#logo a {
+	color: orange;
+	font-size: 30px;
+}
+nav{
+	float: right;
+	padding-top: 20px;
+	padding-right: 50px;
 
-ul li {
+}
+.container{
+	height: 100%;
+	width: 100%;
+	position:absolute;
+	background: url('clone/slider.jpg') center no-repeat;
+	background-size: cover;
+}
+.imageblock{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 70px;
+	background: rgba(255,255,255, 0.5);
+}
+	
+
+
+li {
 		border: 0px;
 		list-style: none;
 		display: inline;
 		margin-right: 10px;
-		margin-left: 0px;
+		margin-left: 10px;
 		margin-top: 0px;
 		color: orange;
 		background-color: transparent;
-		text-align: top right;
+		text-align:  right;
+		padding-top: 50px;
+		
 	}
 img{
-	width: 1200px;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 
@@ -51,7 +85,7 @@ img{
 	background-color: lightpink;
 	text-align: center;
 	
-	<!-- centrshi maq gasawevi da rogor gavaketo?-->
+	
 }
 .about-us{
 	background-color: darkorange;
@@ -72,18 +106,34 @@ img{
 
 	width: 268px;
 	height: 576px;
+	padding-left: 20px;
+	display: inline-block;
 
 }
 .calendar-picture{
 	background-color: lightblue;
-
+	margin: 10px;
+	
 }
 .tour-info{
 	background-color: lightpink;
 	border-left: 1px solid blue;
+	text-align: center;
+	padding: 5px;
+	display: inline-block;
+
+}
+.teqsti{
+	width: 80%;
+	padding: 5%;
 }
 .calendar-info{
 	background-color: blue;
 	text-shadow: lightpink;
+	text-align: center;
+	margin: 10px;
 }
-
+.turebi{
+	float:left;
+	width: 100%;
+}
